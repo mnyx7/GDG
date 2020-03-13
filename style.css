@@ -1,0 +1,33 @@
+body{
+    background-image: url('bg4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+table{
+    margin: 10px 0;
+    background-color: rgb(192,192,192, 0.6)	;
+}
+tr:hover{
+    cursor: pointer;
+    background-color:#ddd ;
+}
+td:hover, th:hover{
+    color: black;
+}
+th{
+    font-size: 20px !important;
+    text-align: left;
+}
+tr,td,th{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border:none;
+    margin:0 5px 0 0;
+}
